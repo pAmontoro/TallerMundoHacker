@@ -1,10 +1,9 @@
 import re
-from xmlrpc.client import Boolean
 from nltk.tokenize import TweetTokenizer
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
-def preprocess_tweet(tweet, stem: Boolean):
+def preprocess_tweet(tweet, stem):
 
     """
     Preprocesamiento automático de tweets
